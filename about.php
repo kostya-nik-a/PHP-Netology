@@ -1,10 +1,10 @@
 <?php
-    $userName = 'Костяева Анна'
-    $userAge = '35'
-    $userEMail = 'kostya.nik.a@yandex.ru'
-    $userTown = 'Новосибирск'
-    $userAboutMe = 'Работаю. Учусь в Нетологии на профессию "веб-разработчик"'
-php>
+    $userName = 'Костяева Анна';
+    $userAge = '35';
+    $userEMail = 'kostya.nik.a@yandex.ru';
+    $userTown = 'Новосибирск';
+    $userAboutMe = 'Обучаюсь на курсе Нетологии "веб-разработчик"';
+?>
 
 <!DOCTYPE>
 <html lang="ru">
@@ -25,25 +25,25 @@ php>
     </style>
     </head>
     <body>
-        <h1>Информация о пользователе Костяева Анна</h1>
+        <h1>Информация о студенте Нетологии - Костяева А.Н.</h1>
         <dl>
-            <dt>Имя</dt>
+            <dt>Имя:</dt>
             <dd><?= $userName ?></dd>
         </dl>
         <dl>
-            <dt>Возраст</dt>
+            <dt>Возраст:</dt>
             <dd><?= $userAge ?></dd>
         </dl>
         <dl>
-            <dt>Адрес электронной почты</dt>
-            <dd><a href="mailto:dfitiskin@gmail.com">dfitiskin@gmail.com</a></dd>
+            <dt>Адрес электронной почты:</dt>
+            <dd><a href="mailto:<?= $userEMail ?>"><?= $userEMail ?></a></dd>
         </dl>
         <dl>
-            <dt>Город</dt>
+            <dt>Город:</dt>
             <dd><?= $userTown ?></dd>
         </dl>
         <dl>
-            <dt>О себе</dt>
+            <dt>О себе:</dt>
             <dd><?= $userAboutMe ?></dd>
         </dl>
     </body>
