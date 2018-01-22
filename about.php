@@ -9,7 +9,7 @@ php>
 <!DOCTYPE>
 <html lang="ru">
   <head>
-    <title>PHP - Домашнее задание №1</title>
+    <title>Домашнее задание к лекции 1.1 «Введение в PHP»</title>
     <meta charset="utf-8">
     <style>
       body {
