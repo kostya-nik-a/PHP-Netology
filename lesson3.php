@@ -25,7 +25,7 @@ foreach ($array_animals as $continent => $animal)
          if ($w == 2) {
             echo '<pre>';
             print_r($words.' - кол-во слов: '.$w);
-           $new_animals = [$words];
+           $new_animals[] = $words;
          }
    }
 }
