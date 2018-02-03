@@ -19,7 +19,7 @@ $unreal_animals = [];
 
 foreach ($array_animals as $continent => $animals) {
     foreach ($animals as $one_animal) {
-        if (substr_count($one_animal, ' ') == 1) {
+        if (str_word_count($one_animal, 0) == 2) {
             $new_animals[$continent][] = $one_animal;
             $animal_name = explode(" ", $one_animal);
             $first_word[$continent][] = $animal_name[0];
